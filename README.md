@@ -1,4 +1,4 @@
 MyPlayground
 ============
 
-Just a testing in Apple's playground file
+Just a testing Apple's new language in playground file
