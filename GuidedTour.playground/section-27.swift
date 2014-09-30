@@ -3,7 +3,7 @@ while n < 100 {
     n = n * 2
 }
 n
-
+ 
 var m = 2
 do {
     m = m * 2

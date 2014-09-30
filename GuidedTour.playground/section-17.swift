@@ -1,1 +1,2 @@
-shoppingList = []   // Went shopping and bought everything.
+shoppingList = []
+occupations = [:]
