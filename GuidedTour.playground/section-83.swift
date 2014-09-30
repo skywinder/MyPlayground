@@ -1,8 +1,3 @@
-func repeat<ItemType>(item: ItemType, times: Int) -> ItemType[] {
-    var result = ItemType[]()
-    for i in 0..times {
-         result += item
-    }
-    return result
-}
-repeat("knock", 4)
+let protocolValue: ExampleProtocol = a
+protocolValue.simpleDescription
+// protocolValue.anotherProperty  // Uncomment to see the error

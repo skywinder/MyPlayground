@@ -1,9 +1,20 @@
-extension Int: ExampleProtocol {
-    var simpleDescription: String {
-        return "The number \(self)"
+class SimpleClass: ExampleProtocol {
+    var simpleDescription: String = "A very simple class."
+    var anotherProperty: Int = 69105
+    func adjust() {
+        simpleDescription += "  Now 100% adjusted."
     }
+}
+var a = SimpleClass()
+a.adjust()
+let aDescription = a.simpleDescription
+ 
+struct SimpleStructure: ExampleProtocol {
+    var simpleDescription: String = "A simple structure"
     mutating func adjust() {
-        self += 42
+        simpleDescription += " (adjusted)"
     }
- }
-7.simpleDescription
+}
+var b = SimpleStructure()
+b.adjust()
+let bDescription = b.simpleDescription
